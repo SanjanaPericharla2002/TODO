@@ -1,0 +1,57 @@
+.CARD{
+    width : 30%;
+    min-height: 10px;
+    background-color: white;
+    position : relative;
+    left : 450px;
+    top: 100px;
+}
+.header h1{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.header img{
+    width : 9%;
+    height : 10%;
+    position: relative;
+    left : 170px;
+    bottom : 60px;
+}
+.search{
+    position: relative;
+    bottom : 40px;
+    left : 40px;
+}
+.search input{
+    width: 50%;
+    border-radius: 30px;
+    height : 30px;
+    padding-left : 20px;
+}
+.search button{
+    position: relative;
+    right: 40px;
+    border-radius: 30px;
+    height : 30px;
+    width: 20%;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    background-color: tomato;
+}
+.search ul li{
+    padding-top: 20px;
+    list-style-type: circle;
+}
+.search ul li span{
+    position: absolute;
+    right: 150px;
+    width : 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.search ul li span :hover{
+    background: #edeef0;
+}
+.checked{
+    text-decoration: line-through;
+}
